@@ -106,8 +106,6 @@ User - {}"""
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
 
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
-
     CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/MovieSearchAutoGroup'>{file_name}</a>
 sɪᴢᴇ ⚙️: {file_size}
 •────•────✦✗✦───•────•
