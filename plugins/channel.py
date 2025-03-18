@@ -89,7 +89,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=poster_url, caption=caption_message, reply_markup=reply_markup)
         else:
-            no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
+            no_poster = "https://i.ibb.co/cc3DV69V/4e8dfd2f1a59.jpg"
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
     except Exception as e:
