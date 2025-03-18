@@ -105,6 +105,15 @@ User - {}"""
 📇 ɪᴅ - <code>{}</code>
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
+    
+    IMDB_TEMPLATE_TXT = """
+<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
+
+🍿 Title: {title}
+🎃 Genres: {genres}
+📆 Year: {release_date}
+⭐ Rating: {rating} / 10</b>
+"""
 
     CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/MovieSearchAutoGroup'>{file_name}</a>
 sɪᴢᴇ ⚙️: {file_size}
@@ -114,15 +123,6 @@ sɪᴢᴇ ⚙️: {file_size}
 •────•────✦✗✦───•────•
 
 <b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/+iXwNgNXtOkk1OTVl'>ᴘʀɪᴍᴇ ʙᴏᴛᴢ</a>
-"""
-    
-    IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
-
-🍿 Title: {title}
-🎃 Genres: {genres}
-📆 Year: {release_date}
-⭐ Rating: {rating} / 10</b>
 """
 
     FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/MovieSearchAutoGroup">𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐒𝐒</a>」</b>"""
