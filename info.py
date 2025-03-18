@@ -41,12 +41,12 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002046895970')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+aAmjR1AgZmRlOGJl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/c/2294203953/1584")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/c/2294203953/1584")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/c/2294203953/1584")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://i.ibb.co/cc3DV69V/4e8dfd2f1a59.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "c1e67b399cfbabbeaf8d6087b4bdbb708c4c0a1a")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'api.gplinks.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
