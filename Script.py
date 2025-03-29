@@ -115,18 +115,8 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/MovieSearchAutoGroup'>{file_name}</a>
-sɪᴢᴇ ⚙️: {file_size}
-•────•────✦✗✦───•────•
-📌 <b>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ :➠</b> <a href='https://t.me/+aAmjR1AgZmRlOGJl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ✨</a>
-🎬 <b>ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ :➠</b> <a href='https://t.me/+iXwNgNXtOkk1OTVl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
-•────•────✦✗✦───•────•
-
-<b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/+iXwNgNXtOkk1OTVl'>ᴘʀɪᴍᴇ ʙᴏᴛᴢ</a>
-"""
-
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/MovieSearchAutoGroup">𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐒𝐒</a>」</b>
-    <b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/+PpKN09K28jNhNTZl'>𝐌𝐀𝐈𝐍 𝐂𝐇𝐄𝐍𝐍𝐀𝐋</a>"""
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="">𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐒𝐒</a>」</b>
+    <b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href=''>𝐌𝐀𝐈𝐍 𝐂𝐇𝐄𝐍𝐍𝐀𝐋</a>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
