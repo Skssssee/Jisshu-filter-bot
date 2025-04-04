@@ -116,7 +116,7 @@ User - {}"""
 """
 
     FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="">𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐒𝐒</a>」</b>
-    <b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href=''>𝐌𝐀𝐈𝐍 𝐂𝐇𝐄𝐍𝐍𝐀𝐋</a>"""
+    <b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/botmaster55'>Hey Devlopes</a>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
