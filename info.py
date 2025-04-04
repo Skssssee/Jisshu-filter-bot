@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7784747674:AAH42ej-oL06u2fALyiuMrhwbrtjFPJfthY')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673 7613349267').split()]
@@ -35,15 +35,15 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002621610885'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002295313217')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001937259467'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002687491032'))
 request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002295313217')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+aAmjR1AgZmRlOGJl') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cinexhub_support') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/c/2294203953/1584")
+TUTORIAL = environ.get("TUTORIAL", "")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://i.ibb.co/cc3DV69V/4e8dfd2f1a59.jpg")
@@ -90,7 +90,7 @@ IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
-PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
+PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', True)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
 LINK_MODE = is_enabled('LINK_MODE', True)
 
@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @JISSHU_BOTS"
+    "⚡ powered by @botmaster55"
 ]
 
 cmds = [
