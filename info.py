@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7784747674:AAH42ej-oL06u2fALyiuMrhwbrtjFPJ
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673 7613349267').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/botmaster55") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/none") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002621610885'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/cinexhub')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
@@ -41,7 +41,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002295313217')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cinexhub_support') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
